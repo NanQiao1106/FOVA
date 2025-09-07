@@ -4,7 +4,7 @@
 
 ---
 
-# FOVA: Offline Federated Reinforcement Learning with Mixed-Quality Data
+# Offline Federated Reinforcement Learning with Mixed-Quality Data
 
 ![MIT](https://img.shields.io/badge/license-MIT-blue)
 
