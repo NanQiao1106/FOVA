@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>FOVA: Offline Federated Reinforcement Learning with Mixed-Quality Data</h1>
+  <h1>FOVA</h1>
 </div>
 
 ---
@@ -70,10 +70,10 @@ FORL/
 If you use FORL in your research, please cite:
 
 ```bibtex
-@misc{forl2024,
+@misc{forl2025,
   title={FOVA: Offline Federated Reinforcement Learning with Mixed-Quality Data},
   author={Nan Qiao},
-  year={2024},
+  year={2025},
   publisher={GitHub},
   journal={GitHub repository},
   howpublished={\url{https://sites.google.com/view/fova/}},
