@@ -4,11 +4,11 @@
 
 ---
 
-# FORL: Federated Offline Reinforcement Learning Framework
+# FOVA: Offline Federated Reinforcement Learning with Mixed-Quality Data
 
 ![MIT](https://img.shields.io/badge/license-MIT-blue)
 
-FORL is a federated offline reinforcement learning framework based on PyTorch, implementing the FOVA algorithm for handling mixed-quality data in distributed settings.
+FOVA is a federated offline reinforcement learning framework based on PyTorch, implementing the FOVA algorithm for handling mixed-quality data in distributed settings.
 
 ## Features
 
@@ -19,7 +19,7 @@ FORL is a federated offline reinforcement learning framework based on PyTorch, i
 
 ## Supported Algorithms
 
-- **FVCQLCSL**: Federated Variational Conservative Q-Learning with Contrastive Skill Learning
+- **FOVA**: Offline Federated Reinforcement Learning with Mixed-Quality Data
 - Multiple variants available in the `forl/` directory
 
 ## Installation
@@ -45,8 +45,8 @@ python setup.py install
 
 ### Training
 ```shell
-# Run FVCQLCSL on antmaze-umaze environment
-python forl/fvcqlcsl.py --task antmaze-umaze --local-num 5 --local-data-size 2000
+# Run FVCQLCSL on hopper-expert environment
+python forl/fvcqlcsl.py --task hopper-expert --local-num 5 --local-data-size 2000
 ```
 
 ### Key Parameters
